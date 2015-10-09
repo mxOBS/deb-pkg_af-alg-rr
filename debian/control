@@ -1,0 +1,20 @@
+Source: af-alg-rr
+Priority: optional
+Maintainer: unknown <privacy@not.given>
+Build-Depends:
+ debhelper (>= 9), dh-autoreconf,
+ autoconf (>= 2.68),
+ libtool (>= 2.2.6),
+ pkg-config,
+ libssl-dev (>= 1.0.0c)
+Standards-Version: 3.9.5
+Section: libs
+Homepage: <insert the upstream URL, if relevant>
+Vcs-Git: https://github.com/mxOBS/deb-pkg_af-alg-rr.git
+#Vcs-Browser: https://github.com/mxOBS/deb-pkg_af-alg-rr.git
+
+Package: af-alg-rr
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
